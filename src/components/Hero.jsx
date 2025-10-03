@@ -10,25 +10,25 @@ const Hero = () => {
         {/* Left Content with Bracket */}
         <div className="flex-1 relative z-30  md:-mr-16 w-full bg-transparent">
           {/* Bracket-like vertical line */}
-          <div className="absolute top-4 -left-4 h-[80%] w-10 border-l border-t border-b border-gray-600"></div>
+          <div className="absolute top-10 -left-4 h-[67%] w-10 border-l border-t border-b border-gray-600"></div>
 
           <div className="pl-10 z-20 w-full">
-            <h1 className="text-3xl md:text-[50px] font-montserrat font-semibold leading-snug">
+            <h1 className="text-3xl md:text-[45px] font-semibold leading-snug font-montserrat">
               Comprehensive{" "}
-              <span className="text-red-500">Cybersecurity</span> Strategies
+              <span className="text-[#FF0004]">Cybersecurity</span> Strategies
               <br /> for Growth and Resilience
             </h1>
-            <p className="text-gray-400 mt-10 max-w-lg font-lato">
+            <p className="text-gray-400 mt-10 text-lg max-w-lg font-lato">
               Unlock your business's full potential with our comprehensive
               cybersecurity strategies. Safeguard your growth and resilience in
               the digital age.
             </p>
 
             <div className="mt-10 flex gap-4">
-              <button className="px-6 py-3 bg-cyan-400 font-montserrat text-black font-semibold rounded-md hover:bg-cyan-300 transition">
+              <button className="px-6 py-3 font-montserrat bg-[#0BF3FF] text-black font-semibold rounded-md hover:bg-[#0BF3FF] transition">
                 LEARN MORE
               </button>
-              <button className="px-6 py-3 border font-montserrat border-cyan-400 text-cyan-400 font-semibold rounded-md hover:bg-cyan-400 hover:text-black transition">
+              <button className="px-6 py-3 font-montserrat border border-[#0BF3FF] text-[#0BF3FF] font-semibold rounded-md hover:bg-[#0BF3FF] hover:text-black transition">
                 TALK WITH US
               </button>
             </div>
