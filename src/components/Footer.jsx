@@ -5,29 +5,29 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white">
       {/* Top CTA Section */}
-<div className="bg-gradient-to-r from-[#186EB4]/15 via-[#2FA2D0]/15 to-[#55F4FC]/15 py-12 px-6 md:px-16 lg:px-24 flex flex-col md:flex-row items-center justify-between gap-8">
-  {/* Left Text */}
-  <div className="md:w-1/2">
-    <h2 className="text-[40px] font-bold font-montserrat leading-tight">
-      How to choose <br /> cybersecurity solution
-    </h2>
-  </div>
+    <div className="bg-gradient-to-r from-[#186EB4]/15 via-[#2FA2D0]/15 to-[#55F4FC]/15 py-14 px-12 md:px-16 lg:px-32 flex flex-col md:flex-row items-center justify-between gap-36">
+        {/* Left Text */}
+        <div className="md:w-1/2">
+            <h2 className="text-[40px] font-bold pl-10 font-montserrat leading-tight">
+            How to choose <br /> cybersecurity solution
+            </h2>
+        </div>
 
-  {/* Right Side */}
-  <div className="md:w-1/2 flex flex-col md:items-end">
-    <p className="text-gray-300 font-lato text-[18px] md:text-[20px] mb-4">
-      Having difficulties choosing the right solution for your business?
-    </p>
-    <div className="flex gap-4">
-      <button className="bg-cyan-400 text-black font-semibold text-[12px] uppercase px-5 py-2 rounded-md hover:bg-cyan-300 transition">
-        Book an Appointment
-      </button>
-      <button className="border border-cyan-400 text-white text-[12px] uppercase px-5 py-2 rounded-md hover:bg-cyan-400 hover:text-black transition">
-        Talk with Us
-      </button>
+        {/* Right Side */}
+        <div className="md:w-1/2 pl-10 flex flex-col md:items-left">
+            <p className="text-gray-300 font-lato text-[18px] md:text-[26px] mb-6">
+            Having difficulties choosing the right solution for your business?
+            </p>
+            <div className="flex gap-4">
+            <button className="bg-[#54F4FC] font-montserrat text-black font-semibold text-[14px] uppercase px-5 py-4 rounded-md hover:bg-[#54F4FC] transition">
+                Book an Appointment
+            </button>
+            <button className="border border-[#54F4FC] font-montserrat text-white text-[14px] uppercase px-5 py-4 rounded-md hover:bg-[#54F4FC] hover:text-black transition">
+                Talk with Us
+            </button>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
 
       {/* Main Footer Links */}
@@ -49,7 +49,7 @@ export default function Footer() {
             <li>Amazon</li>
             <li>Figma</li>
             <li>Twitter</li>
-            <li>CloudFlareHOT</li>
+            <li>CloudRail-IIOT</li>
           </ul>
         </div>
 
