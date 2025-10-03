@@ -37,25 +37,28 @@ const Hero = () => {
 
         {/* Right Images */}
         <div className="relative flex-1 flex justify-center items-center overflow-hidden">
+          {/* Gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/30 to-[#00000014] z-10"></div>
+
           {/* First shield */}
           <img
             src={shield}
             alt="Cybersecurity Shield"
-            className=" h-full relative z-10 -left-20"
+            className="h-full relative z-0 -left-10"
           />
 
           {/* Second shield, shifted right */}
           <img
             src={shield}
             alt="Cybersecurity Shield duplicate"
-            className=" absolute left-1/2 translate-x-1/3 opacity-90"
+            className="absolute left-1/2 translate-x-1/3 opacity-90 z-0"
           />
 
           {/* Corner Elements */}
-          <img src={corner} alt="corner" className="absolute top-0 left-48 w-8 md:w-6" />
-          <img src={corner} alt="corner" className="absolute top-0 right-10 w-8 md:w-6 rotate-90" />
-          <img src={corner} alt="corner" className="absolute bottom-0 left-48 w-8 md:w-6 -rotate-90" />
-          <img src={corner} alt="corner" className="absolute bottom-0 right-10 w-8 md:w-6 rotate-180" />
+          <img src={corner} alt="corner" className="absolute top-0 left-48 w-8 md:w-6 z-20" />
+          <img src={corner} alt="corner" className="absolute top-0 right-10 w-8 md:w-6 rotate-90 z-20" />
+          <img src={corner} alt="corner" className="absolute bottom-0 left-48 w-8 md:w-6 -rotate-90 z-20" />
+          <img src={corner} alt="corner" className="absolute bottom-0 right-10 w-8 md:w-6 rotate-180 z-20" />
         </div>
       </div>
     </section>

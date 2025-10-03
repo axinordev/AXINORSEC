@@ -1,5 +1,9 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import fb from "../assets/fb.png"
+import tel from "../assets/tel.png"
+import insta from "../assets/insta.png"
+import fig from "../assets/fig.png"
 
 export default function Footer() {
   return (
@@ -34,7 +38,7 @@ export default function Footer() {
       <div className="py-12 px-6 md:px-16 lg:px-24 grid grid-cols-2 sm:grid-cols-4 gap-8 border-t border-gray-800">
         <div>
           <h3 className="text-lg font-semibold mb-4">Solutions</h3>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <ul className="space-y-2 text-gray-400 text-base">
             <li>Application Services</li>
             <li>Security Servers</li>
             <li>Security Firewalls</li>
@@ -45,7 +49,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-lg font-semibold mb-4">Partners</h3>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <ul className="space-y-2 text-gray-400 text-base">
             <li>Amazon</li>
             <li>Figma</li>
             <li>Twitter</li>
@@ -55,7 +59,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-lg font-semibold mb-4">Resources</h3>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <ul className="space-y-2 text-gray-400 text-base">
             <li>Academy</li>
             <li>Blog</li>
             <li>Themes</li>
@@ -67,7 +71,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-lg font-semibold mb-4">Company</h3>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <ul className="space-y-2 text-gray-400 text-base">
             <li>About Us</li>
             <li>Careers</li>
             <li>FAQs</li>
@@ -78,20 +82,20 @@ export default function Footer() {
       </div>
 
       {/* Bottom Footer */}
-      <div className="flex flex-col sm:flex-row items-center justify-between py-6 px-6 md:px-16 lg:px-24 border-t border-gray-800">
+      <div className="flex flex-col sm:flex-row items-center justify-between py-6 px-6 md:px-16 lg:px-20 border-t border-gray-800">
         <p className="text-gray-500 text-sm">© 2025 All Rights Reserved</p>
         <div className="flex gap-4 mt-4 sm:mt-0">
           <a href="#" className="text-gray-400 hover:text-white">
-            <FaFacebookF />
+            <img src={fb} alt="fb" className="w-8 h-8" />
           </a>
           <a href="#" className="text-gray-400 hover:text-white">
-            <FaTwitter />
+            <img src={tel} alt="tel" className="w-8 h-8" />
           </a>
           <a href="#" className="text-gray-400 hover:text-white">
-            <FaLinkedinIn />
+            <img src={insta} alt="insta" className="w-8 h-8" />
           </a>
           <a href="#" className="text-gray-400 hover:text-white">
-            <FaInstagram />
+            <img src={fig} alt="fig" className="w-8 h-8" />
           </a>
         </div>
       </div>

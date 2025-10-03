@@ -47,27 +47,27 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="bg-black text-white py-20 px-6 md:px-12 lg:px-20">
+    <section className="bg-black text-white py-16 px-4 md:px-10 lg:px-20">
       {/* Heading */}
-      <h2 className="text-[40px] font-bold font-montserrat text-center mb-14">
+      <h2 className="text-[32px] md:text-[36px] font-bold font-montserrat text-center mb-10">
         Services we offer
       </h2>
 
       {/* Services Grid (2 columns) */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-28">
         {services.map((service, index) => (
           <div
             key={index}
-            className="relative rounded-2xl p-[2px] bg-gradient-to-r from-[#55F4FC] to-[#186EB4]"
+            className="relative rounded-xl p-[1.5px] bg-gradient-to-r from-[#55F4FC] to-[#186EB4] mx-auto w-full"
           >
-            <div className="bg-black rounded-2xl px-10 py-16 h-full">
-              <div className="mb-5 flex justify-center">
-                <img src={service.image} alt={service.title} className="w-14 h-14" /> 
+            <div className="bg-black rounded-xl px-12 py-10 h-full mx-auto w-full">
+              <div className="mb-4 flex justify-center">
+                <img src={service.image} alt={service.title} className="w-8 h-8" /> 
               </div>
-              <h3 className="text-[23px] font-montserrat font-semibold text-cyan-400 text-center mb-4">
+              <h3 className="text-base md:text-xl font-montserrat font-semibold text-cyan-400 text-center mb-3">
                 {service.title}
               </h3>
-              <p className="text-white font-light p-4 font-lato text-xl leading-relaxed text-center">
+              <p className="text-white font-light px-1 font-lato text-sm md:text-base leading-relaxed text-center">
                 {service.description}
               </p>
             </div>

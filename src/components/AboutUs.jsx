@@ -33,7 +33,7 @@ export default function AboutUs() {
         <p className="text-gray-300 font-montserrat text-center text-[21px] leading-relaxed">
           At <span className="text-cyan-400 font-semibold">Ironvelo</span>, we're dedicated to 
           protecting businesses and individuals from the ever-evolving threats 
-          in the digital landscape. With <span className="italic">10+ years</span> of experience in 
+          in the digital landscape. With <span className="italic">7+ years</span> of experience in 
           the cybersecurity industry, we have honed our expertise to deliver 
           innovative solutions that safeguard your digital assets and maintain 
           your peace of mind.
