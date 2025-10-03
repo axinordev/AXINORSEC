@@ -49,7 +49,7 @@ export default function Services() {
   return (
     <section className="bg-black text-white py-16 px-4 md:px-10 lg:px-20">
       {/* Heading */}
-      <h2 className="text-[32px] md:text-[36px] font-bold font-montserrat text-center mb-10">
+      <h2 className="text-[32px] md:text-[37px] font-bold font-montserrat text-center mb-10">
         Services we offer
       </h2>
 
