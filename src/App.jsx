@@ -4,10 +4,12 @@ import AboutUs from './components/AboutUs'
 import Services from './components/Service'
 import Footer from './components/Footer'
 import TestimonialSlider from './components/TestimonialSlider'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <div>
+      <Navbar/>
       <Hero/>
       <AboutUs/>
       <Services/>
